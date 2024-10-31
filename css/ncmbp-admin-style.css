@@ -1,0 +1,237 @@
+/* ncmbp admin style start here */
+
+.ncmbp_left_style h1, .ncmbp__right_style h1 {
+    font-size: 23px !important;
+    color: black;
+    font-weight: 800;
+    padding: 10px 15px;
+    margin-bottom: 30px;
+}
+
+.ncmbp__admin_wrap.wrap {
+    display: flex;
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0px 0px 5px 4px #f4f5f6;
+    border-radius: 8px;
+}
+
+.ncmbp_left_style {
+    flex: 0 0 70%;
+    border-right: 1px solid #eee;
+    margin-right: 30px;
+}
+
+.ncmbp_left_style h1 {
+    padding-left: 0px !important;
+    box-shadow: unset !important;
+}
+
+.ncmbp__right_style {
+    flex: 0 0 28%;
+}
+
+.ncmbp__dashboard_options {
+    margin: 15px 0px;
+    border-bottom: 1px solid #eee;
+    padding: 0 8px 15px;
+    display: flex;
+}
+
+.ncmbp__dashboard_options label {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    flex: 0 0 60%;
+}
+
+.wp-picker-container {
+    flex: 0 0 40%;
+}
+
+.w3-container h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+.ncmbp_left_style input[type="submit"] {
+    background-color: #000000;
+    color: #fff;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ncmbp_left_style input[type="text"] {
+    border: 1px solid #ced4da;
+    padding: 5px;
+}
+
+.ncmbp__right_style p {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.ncmbp__right_style p {
+    padding: 15px 15px;
+    height: 100vh;
+}
+
+.wp-menu-image.dashicons-before img {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    padding-top: 5px !important;
+}
+
+.main__section_ncmbpButtons {
+    display: flex;
+    height: 100vh;
+    background-color: #fff;
+    border-radius: 16px;
+    max-width: 85%;
+    margin: 0 auto;
+    margin-top: 70px;
+    padding: 0px 42px;
+}
+
+.ncmbp__options_menu {
+    flex: 0 0 75%;
+    padding: 30px;
+    overflow-y: scroll;
+}
+
+.ncmbp__options_Buttons {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 25%;
+    border-right: 1px solid #eee;
+    padding: 42px 0;
+}
+
+.ncmbp__options_Buttons .ncmbp_button {
+    background-color: transparent;
+    text-align: left;
+    padding: 25px 35px 25px 35px;
+    cursor: pointer;
+    border: 0 !important;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    transition: all 0.5s ease-in-out;
+    width: 200px;
+    border-radius: 8px;
+    border-bottom: 1px solid #F7F7F7 !important;
+}
+
+.ncmbp__options_Buttons .ncmbp_button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.ncmbp-item {
+    margin: 0 !important;
+    padding: 8px 34px 8px 0px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.ncmbp__header {
+    display: flex;
+    background-color: #fff;
+    align-items: center;
+    box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.ncmbp__logo {
+    flex: 0 0 42%;
+    padding-left: 50px;
+}
+
+.ncmbp__logo img {
+    width: 192px;
+    height: 44px;
+}
+
+.ncmbp__Rating_button {
+    flex: 0 0 38%;
+    text-align: right;
+}
+
+a.ncmbp__btn img {
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    padding-left: 4px;
+}
+
+a.ncmbp__btn {
+    display: inline-block;
+    border: 1px solid #199CFC;
+    border-radius: 8px;
+    padding: 8px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+a.ncmbp__btn:hover {
+    background-color: #179DFC;
+    color: #fff;
+}
+
+.ncmbp__header {
+    /* position: relative !important; */
+    /* margin-left: -22px; */
+    position: fixed;
+    z-index: 10;
+    top: 32px;
+    left: 160px;
+    right: 0;
+    /* overflow: hidden; */
+    width: 100%;
+}
+
+button.ncmbp_button.tablink.ncmbp-active {
+    background: #179DFC;
+    color: #fff;
+    border-bottom: unset !important;
+    font-weight: bold;
+}
+
+.ncmbp__options_Buttons ul li:last-child  button.ncmbp_button.tablink {
+    border-bottom: unset !important;
+}
+
+input.ncmbp__submit_btn {
+    padding: 12px 24px;
+    background: #179DFC;
+    border-radius: 8px;
+    border: 1px solid #179DFC;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+input.ncmbp__submit_btn:hover {
+    background: #000000;
+    border: 1px solid transparent;
+}
+
+
+.general_options_banner img {
+    width: 100% !important;
+}
+
+.shortcode_design {
+    border: 1px dashed #179DFC;
+    border-radius: 12px;
+    padding: 16px;
+}
